@@ -106,16 +106,18 @@ padding: 20px;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    justify-content: space-around;
+    /* justify-content: space-between; */
 }
 
 .principales-img {
-    max-width: 300px;
-
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
 }
 
 .tatuajes-destacados {
-width: 350px;
+height: 450px;
 }
 
 /* .retrato-femenino {
