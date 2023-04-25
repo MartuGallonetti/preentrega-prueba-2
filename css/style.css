@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+
+/* Colores:
+#E0E1DD
+#778DA9
+#415A77
+#1B263B
+#0D1B2A */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Estilos */
+.fondo-main {
+    background-color: #E0E1DD;
+}
+
+/* General */
+.header {
+
+    font-family:'Montserrat', sans-serif;
+    font-size: 10px;
+}
+.titulo-principal {
+    text-align: center;
+    padding: 50px;
+    font-family:'Montserrat', sans-serif;
+    color: #415A77;
+}
+
+
+.main{
+    background-color:#415A77;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+} 
+
+
+/* Nav */
+.nav-link {
+    font-size: 20px;
+    color: #415A77;
+
+}
+.navbar-expand-lg .navbar-collapse {
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+.navbar-brand {
+    margin: 2vh;
+    padding: 5vh;
+
+}
+
+
+.footer {
+    background-color: #0D1B2A;
+    margin: 10px;
+    padding: 5px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    }
+
+.link-footer {
+    list-style: none;
+    color: #E0E1DD;
+}
+
+
+.section {
+    margin: 10px;
+    padding: 5px;
+}
+.section article {
+    background-color: #0D1B2A;
+    color: #E0E1DD;
+    font-size: 5px;
+}
+.lista-no-ordenada  {
+    list-style: none;
+    text-align: center;
+    margin: 25px;
+    padding: 25px;
+    color: #E0E1DD;
+}
+
+
+/* Imagenes*/ */
+.article {
+    width: 30px;
+    height: 60px;
+}
+
+.tatuajes-destacados {
+width: 40px;
+height: 60px;
+}
+
+/* .retrato-femenino {
+    width: 300px;
+    height: 400px;
+    margin: 50px;
+    padding: 50px;
+} */
+
+.boton {
+    margin: 25px;
+    color: #E0E1DD;
+    border-color: #0D1B2A;
+    background-color:#415A77;
+    box-shadow: 2px 1px 2px 1px #0D1B2A;
+}
+
+
+
+
+/* Contacto */
+#main-contacto {
+    margin: 10px;
+    padding: 5px;
+}
