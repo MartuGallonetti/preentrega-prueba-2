@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-
-
-
 /* Colores:
 #E0E1DD
 #778DA9
@@ -29,7 +26,7 @@
 }
 .titulo-principal {
     text-align: center;
-    padding: 50px;
+    padding: 40px;
     font-family:'Montserrat', sans-serif;
     color: #415A77;
 }
@@ -42,6 +39,14 @@
     align-items: center;
     min-height: 10vh;
 } 
+
+/* texto  */
+.introduccion {
+text-align: center;
+margin-bottom: 5rem;
+font-size: 17px;
+padding: 20px;
+}
 
 
 /* Nav */
@@ -56,15 +61,15 @@
 
 }
 .navbar-brand {
-    margin: 2vh;
-    padding: 5vh;
+    margin: 5px;
+    padding: 20px;
 
 }
 
 
 .footer {
     background-color: #0D1B2A;
-    margin: 10px;
+    /* margin: 10px; */
     padding: 5px;
     font-family:'Montserrat', sans-serif;
     font-size: 20px;
@@ -94,15 +99,23 @@
 }
 
 
-/* Imagenes*/ */
-.article {
-    width: 30px;
-    height: 60px;
+/* Imagenes*/ 
+.imagenes-destacadas {
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.principales-img {
+    max-width: 300px;
+
 }
 
 .tatuajes-destacados {
-width: 40px;
-height: 60px;
+width: 350px;
 }
 
 /* .retrato-femenino {
